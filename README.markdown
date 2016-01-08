@@ -40,4 +40,10 @@ This sets up the following hosts:
 - master.b.dnc.example (managed by self)
 - agent1.b.dnc.example (managed by master.b)
 
+TODO: Next Steps:
+
+- set up control repo deploying to both masters
+- retire CA on master.b, have it use master.a
+- try sync'ing the classification rules from master.a to master.b via api
+- try and make console 'read only' on master.b
 
