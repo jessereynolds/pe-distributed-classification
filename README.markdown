@@ -16,6 +16,7 @@ This is an environment managed by Vagrant and Oscar for testing various approach
 ```
 vagrant up
 vagrant provision
+vagrant hosts puppetize | sudo puppet apply
 ```
 
 Add hosts entries for the VMs to your /etc/hosts (optional):
@@ -29,9 +30,6 @@ vagrant hosts puppetize | sudo puppet apply
 ```bash
 bash init.sh
 # fix roles.yaml as per instructions output by init.sh (kill firewall, increase memory, fix master fqdn in agent)
-vagrant up
-vagrant provision
-vagrant hosts puppetize | sudo puppet apply
 ```
 
 This sets up the following hosts:
@@ -40,7 +38,7 @@ This sets up the following hosts:
 - master.b.dnc.example (managed by self)
 - agent1.b.dnc.example (managed by master.b)
 
-TODO: Next Steps:
+# TODO: Next Steps:
 
 - set up control repo deploying to both masters
 - retire CA on master.b, have it use master.a
