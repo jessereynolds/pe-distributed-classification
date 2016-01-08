@@ -91,14 +91,15 @@ What happens if you add a group to the node classifier via the api, and you refe
 
 ### PEE - view status of classifier sync
 
-Wrapper for the Console UI that adds classification sync status. Geoff is on this.
+Wrapper for the Console UI that adds classification sync status.
 
 ## References
 
-- [Node Classifier Architecture](https://confluence.puppetlabs.com/display/ENG/Node+Classifier+Architecture)
 - [External Node Classifiers](https://docs.puppetlabs.com/guides/external_nodes.html)
 - [Groups Endpoint of the Node Classifier Service](https://docs.puppetlabs.com/pe/latest/nc_groups.html)
 - [Console Config - tuning the classifier synchronisation period](http://docs.puppetlabs.com/pe/latest/console_config.html#tuning-the-classifier-synchronization-period)
+- [Node Classifier Architecture](https://confluence.puppetlabs.com/display/ENG/Node+Classifier+Architecture)
 
 ## Resources
 - [puppetclassify ruby gem](https://rubygems.org/gems/puppetclassify), [Source](https://github.com/puppetlabs/puppet-classify)
+
