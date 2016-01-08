@@ -29,7 +29,10 @@ vagrant hosts puppetize | sudo puppet apply
 
 ```bash
 bash init.sh
-# fix roles.yaml as per instructions output by init.sh (kill firewall, increase memory, fix master fqdn in agent)
+# fix roles.yaml as per instructions output by init.sh to:
+# - kill firewall
+# - increase memory on masters to 4GB, reduce on agent to 400MB
+# - fix master fqdn in agent
 ```
 
 This sets up the following hosts:

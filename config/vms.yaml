@@ -8,6 +8,10 @@ vms:
   box: puppetlabs/centos-7.0-64-nocm
   roles:
   - pe-puppet-master
+- name: gitlab.b.dnc.example
+  box: puppetlabs/centos-7.0-64-nocm
+  roles:
+  - pe-puppet-agent
 - name: agent1.b.dnc.example
   box: puppetlabs/centos-7.0-64-nocm
   roles:
